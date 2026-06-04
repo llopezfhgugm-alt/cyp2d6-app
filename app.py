@@ -153,3 +153,5 @@ Interpretación: {mejor['Interpretacion']}
         file_name=f"{sample_id}_CYP2D6.txt",
         mime="text/plain"
     )
+
+uploaded_file = st.file_uploader("Sube archivo Excel", type=["xlsx"])
