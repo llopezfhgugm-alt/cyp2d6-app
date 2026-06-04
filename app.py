@@ -40,7 +40,7 @@ with col1:
     fam = st.number_input("FAM Ct Mean", value=22.0)
     vic = st.number_input("VIC Ct Mean", value=22.0)
 
-    calcular = st.button("Calcular")
+    calcular = st.button("if fam and vic")
 
 with col2:
     st.info("Referencia base: CYP2D6 *4/*45")
